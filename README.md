@@ -1,3 +1,2 @@
-# spot
-####### What makes a playlist successful?
-# Exploratory data analysis of simulated Spotify playlist data.
+## What makes a playlist successful? <br/>
+####### Exploratory data analysis of simulated Spotify playlist data.
