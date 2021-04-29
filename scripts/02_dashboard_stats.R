@@ -5,7 +5,7 @@ library(caret)
 library(randomForest)
 library(lme4)
 library(stringr)
-View(df)
+
 #read the data in
 d <- read_delim("data/playlist_summary_external.txt", delim = "\t")
 
@@ -18,7 +18,7 @@ df <- d %>%
                 ifelse(rank<501&rank>100,"Top 101-500",
                        "Bottom Tier"))))
 
-View(df)
+#View(df)
 #make some stats
 names(df)
 df <- df %>% 
@@ -33,6 +33,6 @@ df <- df %>%
 df$tokens <- gsub( "[^,a-zA-Z\\s]" , "" , df$tokens , perl = TRUE ) #clean the tokens column
 
 final <- df %>% separate(tokens, c("token_1","token_2","token_3")) #split out the first 3 tokens
-View(final)
+#View(final)
 final %>% write_csv("spotify.csv") #push to csv
 
