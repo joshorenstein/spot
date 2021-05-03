@@ -7,6 +7,10 @@ Data and visual analysis of simulated Spotify playlist data.  <br/>
 **03 -** **Model Exploration** - Multivariate regression analysis to predict MAU based on previous MAU and genre/mood interactions. Isolated significiant variables to find over and underperforming playlists. For exploratory use only!  <br/>
 
 ###### The visuals:
+Presentation for meeting and two screenshots of Tableau dashboards.  <br/>
 [Presentation](https://github.com/joshorenstein/spot/blob/master/Playlists.pdf) <br/>
-![Dashboard Example 1](https://github.com/joshorenstein/spot/blob/master/images/all-playlists.PNG)
+![Dashboard Example 1](https://github.com/joshorenstein/spot/blob/master/images/all-playlists.PNG) <br/>
+<br/>
+<br/>
+
 ![Dashboard Example 2](https://github.com/joshorenstein/spot/blob/master/images/pop-excited.PNG)
